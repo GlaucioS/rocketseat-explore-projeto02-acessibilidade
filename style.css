@@ -22,7 +22,7 @@ nav {
   margin-bottom: 55px;
 }
 
-.list {
+ul {
   display: flex;
   gap: 48px;
   list-style: none;
@@ -35,16 +35,16 @@ a {
   text-decoration: none;
 }
 
-.list .item a {
+li a {
     opacity: 0.5;
 }
 
-.list .item a:hover {
+li a:hover {
   font-weight: bold;
   opacity: 1;
 }
 
-.list,
+li,
 .title {
   font-family: "Mulish", sans-serif;
 }
